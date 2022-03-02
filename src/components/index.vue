@@ -1,10 +1,9 @@
 <template>
-  <h2></h2>
+  <div></div>
 </template>
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
 export default defineComponent({
-  name: 'App',
-  setup() {},
+  name: '',
 });
 </script>
