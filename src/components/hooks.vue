@@ -16,8 +16,8 @@
 </template>
 <script lang="ts">
 import { defineComponent, watch } from 'vue';
-import useMousePosition from './utils/useMousePositions';
-import useRequest from './utils/useRequest';
+import useMousePosition from '../utils/useMousePositions';
+import useRequest from '../utils/useRequest';
 interface AddressData {
   name: string;
   year: number;
